@@ -42,6 +42,15 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.headline {
+    margin-top: 20px;
 }
 
 .section-title {
@@ -54,6 +63,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 10px;
 }
 
 .first {
@@ -61,24 +71,71 @@ a {
     justify-content: center;
 }
 
-.project {
-    margin: 20px; 
+.firstImage {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-img {
+h4 {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+}
+
+.project img {
     width: 300px; 
     height: 300px;
+    box-shadow: 5px 5px rgb(24, 24, 24);
+    border-radius: 15px;
+}
+
+.project img:hover{
+    filter: brightness(50%);
+}
+
+.firstImage img {
+    box-shadow: 5px 5px rgb(24, 24, 24);
+    border-radius: 15px;
+}
+
+.firstImage img:hover{
+    filter: brightness(50%);
 }
 
 .contact {
     display: flex;
     justify-content: center;
+    margin: 10px 10px; 
+    background-color: ;
 }
 
 .contact a {
-    margin: 10px; 
+    margin: 10px 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .firstImage img {
+        height: 400px;
+        width: 400px;
+    }
 }
 
 footer {
