@@ -14,4 +14,4 @@ The goal for this assignment is to load portfolio that is the following:
 
 ![Image](Screenshot.png)
 
-[Link](insert url)
+[Link](https://hiclarence.github.io/class-portfolio/)
