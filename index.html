@@ -6,51 +6,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
     <header>
       <nav>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Download Resume</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    
-    <h1>Hey, I'm Clarence</h1>
-    <section class="About">  
-      <h2>About</h2>
-        <img src="/assets/clarence.png" alt="Clarence profile picture" width="200" height="200">
-        <p> I strive to create intuitive solutions which bridge communities and companies.  I have experience building consumer and business facing applications across travel, retail, and data analytics. I'm based in the Bay Area where you can likely find me cooking, writing, or ruminating which color of spray paint to buy. Currently open to new opportunities.</p>
+  
+    <section class="about" id = "about"> 
+      <img src="/assets/clarence.png" alt="Clarence profile picture" width="200" height="200">
+      <section class = "intro">
+        <div class = "headline"><h1>Hey, I'm Clarence</h1> 
+        </div>
+        <div class = "info"><p> I'm a UX designer learning how to full stack code! I'm an Atlanta transplant in the Bay Area.</p>
+        </div>
+      </section>
     </section>
 
-    <section class="work">
-        <h2>Work</h2>
-        <div class = "project">
-          Project 1
+    <main>
+      <h2 class="section-title" id = "work">Work</h2>  
+      <section class = "first">
+        <div class = "firstImage">
+          <h4>Prework</h4>
+          <a href="https://hiclarence.github.io/prework-study-guide/"><img src="assets/prework.png" alt="prework module"></a>
         </div>
-        <div class = "project">
-          Project 2
-        </div>
-        <div class = "project">
-          Project 3
-        </div>
-    </section>
+      </section>
+      <section class="work">
+          <div class = "project">
+            <h4>Horiseon Marketing</h4>
+            <a href="https://hiclarence.github.io/module-1-challenge/"><img src="assets/horiseon.png" alt="challenge 1 module"></a>
+          </div>
+          <div class = "project">
+            <h4>Coming Soon</h4>
+            <img src="assets/stock.jpeg" alt="comingSoon">
+          </div>
+      </section>
+  </main>
 
-    <section class="Contact">
-        <h2 class = "contact-title">Contact</h2>
-        <a href = "https://www.linkedin.com/in/changclarence/" class = "linkedin">LinkedIn: </p>
-          <a href = "https://www.linkedin.com/in/changclarence/" class = "linkedin">Github</p>
+    <h2 class = "section-title">Contact</h2>
+    <section class="contact" id = "contact">
+      <a href = "https://www.linkedin.com/in/changclarence/" class = "linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      <a href = "https://github.com/hiclarence" class = "github"><i class="fa-brands fa-github"></i></a>
     </section>
 
 
     <footer>
-      Clarence's portfolio
     </footer>
-  
 </body>
 </html>
