@@ -16,4 +16,4 @@ The goal for this assignment is to load portfolio that is the following:
 
 [Link](https://hiclarence.github.io/class-portfolio/)
 
-- test from Biteline
+- test from Biteline A
