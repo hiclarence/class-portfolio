@@ -15,5 +15,3 @@ The goal for this assignment is to load portfolio that is the following:
 ![Image](Screenshot.png)
 
 [Link](https://hiclarence.github.io/class-portfolio/)
-
-- test from Biteline A
